@@ -8,25 +8,32 @@
 </head>
 <body>
     <main>
-        <h1>Login</h1>
+        <section id="login">
+            <div id="imagem">
 
-        <p>Seja Bem-vindo novamente. Faca Login para acessar sua conta e poder fazer as configuraçoes no seu ambiente</p>
+            </div>
+            <div id="formulario">
+            <h1>Login</h1>
+            <p>Seja Bem-vindo novamente. Faca Login para acessar sua conta e poder fazer as configuraçoes no seu ambiente</p>
 
-        <form action="cadastro.php" method="post" autocomplete="on">
-            <p>
-                <label for="iusu">Nome:</label>
-                <input type="text" name="usu" id="iusu" required minlength="3" maxlength="10" size="11" placeholder="Nome do Usuario"
-                    autocomplete="username">
-            </p>
-            <p>
-                <label for="isen">Senha:</label>
-                <input type="password" name="sen" id="isen" required minlength="6" maxlength="18" size="10" placeholder="Minimo 6 letras" autocomplete="current-password">
-            </p>
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </p>
-        </form>
+            </div>
+            
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p>
+                    <label for="iusu">Nome:</label>
+                    <input type="text" name="usu" id="iusu" required minlength="3" maxlength="10" size="11" placeholder="Nome do Usuario"
+                        autocomplete="username">
+                </p>
+                <p>
+                    <label for="isen">Senha:</label>
+                    <input type="password" name="sen" id="isen" required minlength="6" maxlength="18" size="10" placeholder="Minimo 6 letras" autocomplete="current-password">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
     </main>
     
 </body>

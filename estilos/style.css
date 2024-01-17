@@ -11,22 +11,54 @@ paletas de cores
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: rgba(85, 6, 6, 0.795);
+body, html{
+    background-color: #550606cb;
+    height: 100vh;
+    width: 100vw;
 }
 
 main{
-    background-color: aliceblue;
-    width: 90vw;
-    margin: auto;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
-main > p {
-    text-align: justify;
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 
+    background-color: aliceblue;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #550606cb url(../imagens/tijolo.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+section#login > div#formulario > h1{
+    text-align: center;
+}
+
+section#login > div#formulario > p{
+    text-align: justify;
+    padding: 10px;
+    
 }
