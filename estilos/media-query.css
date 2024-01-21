@@ -31,7 +31,7 @@ grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #9b5d5d, #550606cb);
     }
