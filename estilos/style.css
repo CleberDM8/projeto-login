@@ -58,10 +58,11 @@ section#login > div#formulario{
 
 section#login > div#formulario > h1{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 section#login > div#formulario > p{
     text-align: justify;
-    padding: 10px;
+    font-size: 0.8em;
     
 }
